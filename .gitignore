@@ -1,0 +1,12 @@
+# Environnements virtuels
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# OS / éditeur
+.vscode/
+.DS_Store

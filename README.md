@@ -10,25 +10,6 @@ Python industrialisable, intégrant :
 
 ---
 
-## Structure du projet
-.
-├── README.md
-├── pyproject.toml
-├── src/
-│ └── order_management/
-│ ├── init.py
-│ ├── order.py
-│ └── status.py
-├── tests/
-│ ├── test_order.py
-│ └── test_status.py
-└── .github/
-└── workflows/
-└── ci.yml
-
-
----
-
 ## Fonctions métier implémentées
 - **calcul_total_commande** : calcule le total d’une commande à partir des prix et quantités.
 - **transition_statut_valide** : valide les transitions possibles entre statuts de commande.
@@ -41,10 +22,10 @@ Créer un environnement virtuel puis installer le projet en mode développement 
 ```bash
 pip install -e ".[dev]"
 
-
 Exécution des tests
 
 Les tests unitaires sont écrits avec pytest.
+
 pytest
 
 Intégration Continue (CI)
@@ -78,6 +59,6 @@ packaging Python,
 
 tests automatisés,
 
-CI,
+intégration continue,
 
 gouvernance Git.
