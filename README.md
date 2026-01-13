@@ -8,7 +8,6 @@ Python industrialisable, intégrant :
 - une intégration continue (CI),
 - et des règles de gouvernance Git.
 
-
 ---
 
 ## Fonctions métier implémentées
@@ -23,10 +22,10 @@ Créer un environnement virtuel puis installer le projet en mode développement 
 ```bash
 pip install -e ".[dev]"
 
-
 Exécution des tests
 
 Les tests unitaires sont écrits avec pytest.
+
 pytest
 
 Intégration Continue (CI)
@@ -60,6 +59,6 @@ packaging Python,
 
 tests automatisés,
 
-CI,
+intégration continue,
 
 gouvernance Git.
