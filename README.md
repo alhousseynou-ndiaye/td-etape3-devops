@@ -8,24 +8,6 @@ Python industrialisable, intégrant :
 - une intégration continue (CI),
 - et des règles de gouvernance Git.
 
----
-
-## Structure du projet
-.
-├── README.md
-├── pyproject.toml
-├── src/
-│ └── order_management/
-│ ├── init.py
-│ ├── order.py
-│ └── status.py
-├── tests/
-│ ├── test_order.py
-│ └── test_status.py
-└── .github/
-└── workflows/
-└── ci.yml
-
 
 ---
 
